@@ -45,3 +45,4 @@ def hitung_luas_segitiga(title, alas, tinggi):
 
 print(hitung_luas_segitiga('Segitiga3', 5, 15))
 print(hitung_luas_segitiga('segitiga4', 3, 6))
+print(hitung_luas_segitiga('segitiga5', 5, 10))
