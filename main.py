@@ -1,3 +1,6 @@
+from geometry.segitiga import hitung_luas_segitiga
+from geometry.persegi_panjang import hitung_luas_persegipanjang
+
 print('Hello World')
 
 #Menghitung Luas Segitiga
@@ -39,10 +42,10 @@ tinggi = 6
 luas_segitiga = alas * tinggi / 2
 print(luas_segitiga)
 
-def hitung_luas_segitiga(title, alas, tinggi):
-    print(title)
-    return alas * tinggi / 2
-
 print(hitung_luas_segitiga('Segitiga3', 5, 15))
 print(hitung_luas_segitiga('segitiga4', 3, 6))
 print(hitung_luas_segitiga('segitiga5', 5, 10))
+
+#module tahap 2 : pembuatan package
+print(hitung_luas_persegipanjang('Persegi 1', 10, 5))
+print(hitung_luas_persegipanjang('Persegi 2', 10, 10))
