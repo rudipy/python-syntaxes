@@ -25,3 +25,23 @@ print('5', luas_segitiga)
 print('dengan for')
 for i in range(0, 10):
     print(i+1, luas_segitiga)
+
+#module tahab 1 pembuatan fungsi
+print('segitiga1')
+alas = 5
+tinggi = 15
+luas_segitiga = alas * tinggi / 2
+print(luas_segitiga)
+
+print('segitiga2')
+alas = 3
+tinggi = 6
+luas_segitiga = alas * tinggi / 2
+print(luas_segitiga)
+
+def hitung_luas_segitiga(title, alas, tinggi):
+    print(title)
+    return alas * tinggi / 2
+
+print(hitung_luas_segitiga('Segitiga3', 5, 15))
+print(hitung_luas_segitiga('segitiga4', 3, 6))
