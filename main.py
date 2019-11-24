@@ -1,5 +1,6 @@
 from geometry.segitiga import hitung_luas_segitiga
 from geometry.persegi_panjang import hitung_luas_persegipanjang
+from geometry_class.segitiga import Segitiga
 
 print('Hello World')
 
@@ -49,3 +50,11 @@ print(hitung_luas_segitiga('segitiga5', 5, 10))
 #module tahap 2 : pembuatan package
 print(hitung_luas_persegipanjang('Persegi 1', 10, 5))
 print(hitung_luas_persegipanjang('Persegi 2', 10, 10))
+
+#module tahap 3 : pembuatan class
+segitiga1 = Segitiga('segitiga 1 adalah class', 50, 3)
+print(segitiga1.title)
+print(segitiga1.hitung_luas())
+segitiga2 = Segitiga('segitiga 2 adalah class', 150, 13)
+print(segitiga2.title)
+print(segitiga2.hitung_luas())
